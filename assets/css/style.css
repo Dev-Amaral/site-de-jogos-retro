@@ -1,74 +1,130 @@
 *{
     
 }
+body{
+    background-color: #162464;
+}
 
 .container{
-    background-color: red;
+    /* background-color: red; */
     display: flex;    
-    height: 10vh;
+    height: 108px;
 }
 
 .logotipo{
     flex:1;
-background-color: green;
+/* background-color: green; */
 display: flex;
 
 }
-.YOSHI{
-background-color: aqua;
-   width: 25vh;
+
+.YOSHI img{
+     height: 108px;
 }
+
+
+
 .nome-site{
 display: flex;
 align-items: center;
-margin-left: 5vw;
+margin-left: 96px;
+color: whitesmoke;
+font-size: 40px;
+font-family: "Open Sans";
+
 }
 .links{
     flex: 2;
     justify-content: right;
-background-color: rgb(139, 139, 175);
+/* background-color: rgb(139, 139, 175); */
 display: flex;
 justify-content: end;
 align-items: center;
-margin-right: 5vw;
+/* margin-right: 80px; */
 
 }
-a{
-    margin-right: 7vw;
+.links a{
+    margin-right: 80px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bolder;
+}
+.links a:hover{
+    letter-spacing: 2px;
+    color: chocolate;
 }
 
 .home{
-    background-color: chocolate;
-    
+    /* background-color: chocolate; */
+    margin: 25px;
 }
 
 .banner{
-    height: 50vh;
-    background-image: url(https://w0.peakpx.com/wallpaper/529/484/HD-wallpaper-zelda-the-legend-of-zelda-landscape-link-the-legend-of-zelda.jpg);
+    height: 500px;
+    display: flex;
+    background-image: url(../img/homepage/zelda-the-legend-of-zelda-the-minish-cap-link-hd-wallpaper-preview.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: 20px -50px;
+    align-items: end;
+    background-size: 100% 100%;
+
+}
+.banner p{
+    margin: 100px;
+    background-color: #162464;
+    color: whitesmoke;
+    font-size: 40px;
+    border-radius: 10px;
+
 }
 
 .container-1{
     display: flex;
-    height: 30vh;
+    height: 350px;
+    margin: 10px;
 }
 
-.texto-apresentacao{
+.texto-apresentacao p{
     flex: 2;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    /* color: whitesmoke; */
+    font-size:15 px;
+    color: whitesmoke;
+    font-family: "Open Sans";
+
+}
+.bloco-img-1, .bloco-img-2, .bloco-img-3, .texto-apresentacao{
+    flex: 1;
+    margin: 10px;
+    height: 290px;
 }
 
 .bloco-img-1{
     flex: 1.3;
-    background-color: beige;
-
-}
-.bloco-img-2, .bloco-img-3{
-    flex: 1;
-    background-color: aquamarine;
+    background-image: url(../img/homepage/gameboy\ home\ page.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
+.bloco-img-2 {
+    background-image: url(../img/homepage/sonic\ genesis.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bloco-img-3 {
+    background-image: url(../img/homepage/bomba.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    color: whitesmoke;
+    font-family: "Open Sans";
+    margin-left: 10px;
+}
 .emulators{
     display: flex;
     flex-wrap: wrap;
@@ -86,20 +142,35 @@ a{
 }
 
 .card-emulator{
-    width: 40vw;
-
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
 .img-game{
     height: 150px;
 
 }
+.card-title{
+    color: white;
+    font-size: 30px;
 
+}
 .card-body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center ;
 }
-
+.btn-download{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: olivedrab;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
 
