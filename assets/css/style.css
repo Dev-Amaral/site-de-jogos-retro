@@ -233,3 +233,11 @@ h1{
 
     transform: scale(1.2);
 }
+
+@media (max-width: 768px) {
+
+
+    html {
+        touch-action: manipulation; /* Impede ações de toque que podem provocar zoom */
+    }
+}
