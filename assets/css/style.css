@@ -235,9 +235,42 @@ h1{
 }
 
 @media (max-width: 768px) {
-
+    .home{
+        display: none;
+    }
+    .home-linha{
+        display: none;
+    }
 
     html {
         touch-action: manipulation; /* Impede ações de toque que podem provocar zoom */
     }
+    .container-5{
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .redes{
+        color: aliceblue;
+        margin: 30px;
+
+    }
+
+    .direitos{
+
+        font-size: 10px;
+
+    }
+    .img-emulator{
+        height: 100px;
+    }
+    .img-game{
+        height: 200px;
+        width: 150px;
+    
+    }
+    .card-title{
+        font-size: 15px;
+    }
+
 }
