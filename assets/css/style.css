@@ -52,27 +52,34 @@ align-items: center;
     font-weight: bolder;
 }
 .links a:hover{
-    letter-spacing: 2px;
+    transform: scale(1.2);
     color: chocolate;
 }
 
 .home{
     /* background-color: chocolate; */
-    margin: 50px;
+    margin: 0px;
+    display: flex;
+    height: 900px;
+
 }
 
-.banner{
+.home-page{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .banner{
     height: 500px;
     width: 1500px;
     display: flex;
     /* background-image: url(../img/homepage/mario.png); */
-    background-repeat: no-repeat;
     /* background-position: 20px -50px; */
-    align-items: end;
-    justify-content: right;
-    /* background-size: ; */
+    /* background-size: ; *//*
     background-position: center;
-}
+} */
 .banner p{
     margin: 100px;
     background-color: #162464;
@@ -170,9 +177,10 @@ h1{
 }
 .card-title{
     color: white;
-    font-size: 19px;
+    font-size: 25px;
     display: flex;
     text-align: center;
+    font-family: monospace;
 }
 
 
@@ -191,32 +199,37 @@ h1{
     padding: 10px;
 }
 
+.btn-download:hover{
+    transform: scale(1.2);
+}
 
 .container-5{
-    display: flex;
-    /* flex-direction: row; */
-    /* justify-content: center; */
-    align-items: center;
     background-color: black;
+    display: flex;
 }
-
-
-
-.redes-sociais {
-/* justify-content: center; */
-    margin: 30px;
-}
-
-.redes-sociais a{
-    margin: 10px;
-    color: aliceblue;
-}
-
 .direitos{
-    /* display: flex; */
-    justify-content: end;
-    align-items: end;
-    font-size: 30px;
+    flex: 1;
     color: aliceblue;
-    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.redes-sociais{
+    flex:1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.redes{
+    color: aliceblue;
+    margin: 60px;
+
+}
+.redes:hover{
+    color: chocolate;
+
+    transform: scale(1.2);
 }
