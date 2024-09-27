@@ -307,4 +307,12 @@ h1{
         font-size: 15px;
 
     }
+
+    .card-emulator{
+        margin: 10px;
+    }
+
+    .card-game{
+        margin: 10px;
+    }
 }
