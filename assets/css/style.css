@@ -246,9 +246,7 @@ h1{
         display: none;
     }
 
-    html {
-        touch-action: manipulation; /* Impede ações de toque que podem provocar zoom */
-    }
+
     .container-5{
         background-color: black;
         display: flex;
@@ -280,7 +278,6 @@ h1{
         display: flex;
         flex-direction: column;
         align-items: start;
-        
     }
     .links a{
         font-size: 20px;
@@ -295,11 +292,12 @@ h1{
     }
     .direitos{
         align-items: start;
-        justify-content: start;
+        justify-content: center;
     
     }
     .direitos p{
-        margin: 5px;}
+        margin: 5px;
+    }
     .texto-mobile{
         display: flex;
         color: aliceblue;
@@ -310,6 +308,7 @@ h1{
 
     .card-emulator{
         margin: 10px;
+
     }
 
     .card-game{
