@@ -234,6 +234,10 @@ h1{
     transform: scale(1.2);
 }
 
+.texto-mobile{
+    display: none;
+}
+
 @media (max-width: 768px) {
     .home{
         display: none;
@@ -295,6 +299,11 @@ h1{
     
     }
     .direitos p{
-        margin: 5px;
+        margin: 5px;}
+    .texto-mobile{
+        display: flex;
+        color: aliceblue;
+        font-family: monospace;
+        
     }
 }
