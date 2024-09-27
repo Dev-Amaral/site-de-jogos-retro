@@ -283,7 +283,7 @@ h1{
         
     }
     .links a{
-        font-size: 10px;
+        font-size: 20px;
     }
     .container{
         display: flex;
@@ -291,7 +291,7 @@ h1{
 
     }
     .nome-site{
-        font-size: 20px;
+        font-size: 30px;
     }
     .direitos{
         align-items: start;
@@ -304,6 +304,7 @@ h1{
         display: flex;
         color: aliceblue;
         font-family: monospace;
-        
+        font-size: 15px;
+
     }
 }
